@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I fiori dell'anno</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:wght@200&family=Playfair+Display&family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mhw3.css">
+  <script src="mhw3.js" defer="true"></script>
+</head>
+
+  
+<body>
+  <navbar>
+      <a>Home</a>
+      <a>Lista</a>
+      <a>Contatti</a>
+      <a>Logout</a>
+  </navbar>
+  
+  <header>
+    <div id="static">
+    <h1>I fiori più belli dell'anno</h1>
+    </div>
+    <div id="overlay"></div>
+  </header>
+  
+  <div id="profile"> 
+    <img id="propic" src="Narcissus.jpg"/>
+  </div>
+  
+  <div class="dati">
+    <strong>Jordan Codice</strong><br>
+     <em>Ultimo aggiornamento: oggi</em> 
+  </div>
+  
+ <article id="main">
+   
+    <section class="element">
+      <div class="number">1.</div>
+
+      <div class="contenuto">
+        <div class="nomefiore"><strong>Viola</strong></div>
+    
+        <div class="voto"> Voto:9</div>
+      
+        <div class="text">Comprende oltre 400 specie erbacee annuali o perenni e anche suffruticose, alte da 10 a 20 cm, con fioriture primaverili, in svariati colori e corolle dalla forma caratteristica; generalmente con l'inizio della stagione calda le piante interrompono la fioritura, stimolando la produzione dei semi e concludendo il ciclo vegetativo.</div>
+      
+        <div class="commento">Tritolo</div>
+      
+        <img src="viola.jpg"/> 
+      </div>
+    </section>
+
+    <section class="element">
+      <div class="number">2.</div>
+  
+      <div class="contenuto">
+        <div class="nomefiore"><strong>Rosa</strong></div>
+    
+        <div class="voto">Voto:8.5</div>
+      
+        <div class="text">Rosa è un genere della famiglia delle Rosacee che comprende circa 150 specie, originarie dell'Europa e dell'Asia. Comprende specie cespugliose, sarmentose, rampicanti, striscianti, arbusti e alberelli a fiore grande o piccolo, a mazzetti, pannocchie o solitari, semplici o doppi, frutti ad achenio contenuti in un falso frutto; le specie spontanee in Italia sono oltre 30, di cui ricordiamo la R. canina (la più comune), la R. gallica (poco comune nelle brughiere e luoghi sassosi), la R. glauca (frequente sulle Alpi), la R. pendulina o R. alpina (comune sulle Alpi e l'Appennino settentrionale) e la R. sempervirens.</div>
+      
+        <div class="commento">Stupendo</div>
+      
+        <img src="rosa.jpg"/> 
+      </div>
+    </section>
+
+    <section class="element">
+      <div class="number">3.</div>
+  
+      <div class="contenuto">
+        <div class="nomefiore"><strong>Girasole</strong></div>
+    
+        <div class="voto">Voto:8</div>
+      
+        <div class="text">Il fusto nei paesi di origine può superare 4 m. La forma biologica della specie è terofita scaposa, sono piante erbacee che differiscono dalle altre forme biologiche poiché, essendo annuali, superano la stagione avversa sotto forma di seme; sono inoltre munite di asse fiorale eretto, spesso con poche foglie. La pianta ha una pubescenza ruvida.</div>
+      
+        <div class="commento">Bello</div>
+      
+        <img src="sunflower.jpg"/> 
+      </div>
+    </section>
+
+      <section class="element">
+        <div class="number">4.</div>
+    
+        <div class="contenuto">
+          <div class="nomefiore"><strong>Tulipano</strong></div>
+      
+          <div class="voto">Voto:7</div>
+        
+          <div class="text">Fu portato per la prima volta in Europa nel 1554 dal fiammingo Ogier Ghislain de Busbecq, ambasciatore di Ferdinando I alla corte di Solimano il Magnifico, che ne spedì alcuni bulbi al botanico Carolus Clusius, responsabile dei giardini reali olandesi. Clusius trovò un modo per sviluppare molte varietà di tulipani, nei più svariati colori e forme. La sua coltivazione nei Paesi Bassi iniziò all'incirca a partire dal 1593. I tulipani divennero rapidamente una merce di lusso e uno status symbol, non solo per il loro valore decorativo, ma anche per il valore economico, e crebbero rapidamente di prezzo. Ne nacque tra il 1634-37 la prima bolla speculativa documentata della storia del capitalismo, la famosa bolla dei tulipani, che esplose il 5 febbraio 1637.</div>
+        
+          <div class="commento">Carino</div>
+        
+          <img src="tulip.webp"/> 
+        </div>
+      </section>
+
+        <section class="element">
+          <div class="number">5.</div>
+      
+          <div class="contenuto">
+            <div class="nomefiore"><strong>Tarassaco</strong></div>
+        
+            <div class="voto">Voto:6.5</div>
+          
+            <div class="text">Il tarassaco cresce spontaneamente nelle zone di pianura fino a un'altitudine di 2000 m e in alcuni casi con carattere infestante. È una pianta tipica del clima temperato e, anche se per crescere non ha bisogno di terreni e di esposizioni particolari, predilige maggiormente un suolo sciolto e gli spazi aperti, soleggiati o a mezzombra. In Italia cresce dovunque e lo si può trovare facilmente nei prati, negli incolti, lungo i sentieri e ai bordi delle strade.</div>
+          
+            <div class="commento">Accettabile</div>
+          
+            <img src="dandelion.jpg"/> 
+          </div>
+        </section>
+  
+  </article>
+
+  <div class="api">  
+    <form id="wiki">
+        Cerca altri fiori inserendone qua il nome
+        <input type="text" id="search" />
+        <input type="submit" value="Cerca">
+        <div id="div1"></div>
+    </form>
+
+    <form id="spotify">
+        Ascolta musica mentre leggi
+        <input type="text" id="song">
+        <input type="submit" value="Cerca">
+        <div id="div2"></div>
+    </form>
+  </div>
+  
+ <footer>
+    <p> <em>Jordan Codice</em> <br>
+      1000001433 
+    </p>
+ </footer>
+
+</body>
+</html>
